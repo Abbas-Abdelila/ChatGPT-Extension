@@ -1,6 +1,7 @@
 {
   "name": "chatGPT Extension",
   "version": "1.0.0",
+  "description": "Chrome extension to use chatGPT from any browser TAB.",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
