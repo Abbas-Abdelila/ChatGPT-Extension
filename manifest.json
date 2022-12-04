@@ -1,0 +1,24 @@
+{
+  "name": "chatGPT Extension",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["popup.js"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "icons": {
+    "48": "./assets/chatGPT_icon_48.png",
+    "16": "./assets/chatGPT_icon_16.png"
+  }
+}
