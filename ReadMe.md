@@ -9,6 +9,8 @@
 7. Create account or sign in on the tab opened https://chat.openai.com/auth/login
 8. Pin the extension and start using it on every site.
 
+### Good to make quick search on various topics.
+
 #### Thanks to [Kazuki Nakayashiki](https://github.com/kazuki-sf)
 
 
